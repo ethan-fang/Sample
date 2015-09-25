@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		591CF47408D20CFA7A8CAC60 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB691AAADAE25DB80BD2BDC2 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		FB82DBD31BB5E78600E5FF5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBD21BB5E78600E5FF5C /* main.m */; };
 		FB82DBD61BB5E78600E5FF5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBD51BB5E78600E5FF5C /* AppDelegate.m */; };
 		FB82DBD91BB5E78600E5FF5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBD81BB5E78600E5FF5C /* ViewController.m */; };
-		FB82DBDC1BB5E78600E5FF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB82DBDA1BB5E78600E5FF5C /* Main.storyboard */; };
-		FB82DBDE1BB5E78600E5FF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB82DBDD1BB5E78600E5FF5C /* Assets.xcassets */; };
-		FB82DBE11BB5E78600E5FF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB82DBDF1BB5E78600E5FF5C /* LaunchScreen.storyboard */; };
 		FB82DBEC1BB5E78600E5FF5C /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBEB1BB5E78600E5FF5C /* SampleTests.m */; };
 		FB82DBF71BB5E78600E5FF5C /* SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBF61BB5E78600E5FF5C /* SampleUITests.m */; };
+		FB82DC0C1BB5EA7A00E5FF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC051BB5EA7A00E5FF5C /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		FB82DC0D1BB5EA7A00E5FF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC061BB5EA7A00E5FF5C /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FB82DC0E1BB5EA7A00E5FF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC081BB5EA7A00E5FF5C /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FB82DC0F1BB5EA7A00E5FF5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC0A1BB5EA7A00E5FF5C /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		FB82DC101BB5EA7A00E5FF5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DC0B1BB5EA7A00E5FF5C /* main.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,21 +41,21 @@
 		A94843405F944AD979BB65E3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EB691AAADAE25DB80BD2BDC2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82DBCE1BB5E78600E5FF5C /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB82DBD21BB5E78600E5FF5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB82DBD41BB5E78600E5FF5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB82DBD51BB5E78600E5FF5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB82DBD71BB5E78600E5FF5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FB82DBD81BB5E78600E5FF5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FB82DBDB1BB5E78600E5FF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB82DBDD1BB5E78600E5FF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB82DBE01BB5E78600E5FF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB82DBE21BB5E78600E5FF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB82DBE71BB5E78600E5FF5C /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82DBEB1BB5E78600E5FF5C /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
 		FB82DBED1BB5E78600E5FF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB82DBF21BB5E78600E5FF5C /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82DBF61BB5E78600E5FF5C /* SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleUITests.m; sourceTree = "<group>"; };
 		FB82DBF81BB5E78600E5FF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB82DC051BB5EA7A00E5FF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB82DC071BB5EA7A00E5FF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB82DC091BB5EA7A00E5FF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB82DC0A1BB5EA7A00E5FF5C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB82DC0B1BB5EA7A00E5FF5C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,25 +126,13 @@
 		FB82DBD01BB5E78600E5FF5C /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				FB82DC041BB5EA7A00E5FF5C /* Supporting Files */,
 				FB82DBD41BB5E78600E5FF5C /* AppDelegate.h */,
 				FB82DBD51BB5E78600E5FF5C /* AppDelegate.m */,
 				FB82DBD71BB5E78600E5FF5C /* ViewController.h */,
 				FB82DBD81BB5E78600E5FF5C /* ViewController.m */,
-				FB82DBDA1BB5E78600E5FF5C /* Main.storyboard */,
-				FB82DBDD1BB5E78600E5FF5C /* Assets.xcassets */,
-				FB82DBDF1BB5E78600E5FF5C /* LaunchScreen.storyboard */,
-				FB82DBE21BB5E78600E5FF5C /* Info.plist */,
-				FB82DBD11BB5E78600E5FF5C /* Supporting Files */,
 			);
 			path = Sample;
-			sourceTree = "<group>";
-		};
-		FB82DBD11BB5E78600E5FF5C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB82DBD21BB5E78600E5FF5C /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FB82DBEA1BB5E78600E5FF5C /* SampleTests */ = {
@@ -162,6 +151,18 @@
 				FB82DBF81BB5E78600E5FF5C /* Info.plist */,
 			);
 			path = SampleUITests;
+			sourceTree = "<group>";
+		};
+		FB82DC041BB5EA7A00E5FF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB82DC051BB5EA7A00E5FF5C /* Assets.xcassets */,
+				FB82DC061BB5EA7A00E5FF5C /* LaunchScreen.storyboard */,
+				FB82DC081BB5EA7A00E5FF5C /* Main.storyboard */,
+				FB82DC0A1BB5EA7A00E5FF5C /* Info.plist */,
+				FB82DC0B1BB5EA7A00E5FF5C /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB82DBE11BB5E78600E5FF5C /* LaunchScreen.storyboard in Resources */,
-				FB82DBDE1BB5E78600E5FF5C /* Assets.xcassets in Resources */,
-				FB82DBDC1BB5E78600E5FF5C /* Main.storyboard in Resources */,
+				FB82DC0F1BB5EA7A00E5FF5C /* Info.plist in Resources */,
+				FB82DC0E1BB5EA7A00E5FF5C /* Main.storyboard in Resources */,
+				FB82DC0C1BB5EA7A00E5FF5C /* Assets.xcassets in Resources */,
+				FB82DC0D1BB5EA7A00E5FF5C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +348,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB82DBD91BB5E78600E5FF5C /* ViewController.m in Sources */,
+				FB82DC101BB5EA7A00E5FF5C /* main.m in Sources */,
 				FB82DBD61BB5E78600E5FF5C /* AppDelegate.m in Sources */,
-				FB82DBD31BB5E78600E5FF5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,20 +385,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB82DBDA1BB5E78600E5FF5C /* Main.storyboard */ = {
+		FB82DC061BB5EA7A00E5FF5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB82DBDB1BB5E78600E5FF5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FB82DBDF1BB5E78600E5FF5C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB82DBE01BB5E78600E5FF5C /* Base */,
+				FB82DC071BB5EA7A00E5FF5C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB82DC081BB5EA7A00E5FF5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB82DC091BB5EA7A00E5FF5C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -489,7 +491,7 @@
 			baseConfigurationReference = 93DA24D61EC39B7EBFEE3984 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_FILE = "Sample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +503,7 @@
 			baseConfigurationReference = A94843405F944AD979BB65E3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sample/Info.plist;
+				INFOPLIST_FILE = "Sample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
