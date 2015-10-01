@@ -14,6 +14,7 @@
 #import "UIView+Subviews.h"
 #import "RandomViewController.h"
 
+
 @interface ViewControllerTest : XCTestCase
 @end
 
@@ -41,7 +42,13 @@
     
     
     id userManagerMock = OCMClassMock([UserManager class]);
-    OCMExpect([userManagerMock loginWithUsername:@"test" password:@"test" complete:[OCMArg any]]);
+    OCMExpect([userManagerMock loginWithUsername:@"test" password:@"test" complete:[OCMArg any]]).andDo(^(NSInvocation *invocation) {
+        LoginCompleteBlock successBlock;
+        [invocation getArgument:&successBlock atIndex:4];
+        if (successBlock) {
+            successBlock(true);
+        }
+    });;
     controller.userManager = userManagerMock;
     
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];

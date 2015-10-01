@@ -39,8 +39,9 @@
     }];
 }
 
-- (void)handleLoginSuccess:(BOOL) success {
+- (void)handleLoginSuccess:(BOOL)success {
     NSLog(@"Login %@", [NSNumber numberWithBool:success]);
+    
 }
 
 - (UserManager *)userManager {
