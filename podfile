@@ -2,3 +2,9 @@ platform :ios, '8.0'
 use_frameworks!
 
 pod 'AFNetworking', '~> 2.5'
+
+# Add unit testing libraries ONLY to the test target
+target :SampleTests, :exclusive => true do
+    pod 'Kiwi', '2.4.0'
+    pod 'OCMock', '~> 3.1.5'
+end

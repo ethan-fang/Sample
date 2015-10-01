@@ -20,11 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.6.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Kiwi (2.4.0)
+  - OCMock (3.1.5)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - Kiwi (= 2.4.0)
+  - OCMock (~> 3.1.5)
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  OCMock: 4c2925291f80407c3738dd1db14d21d0cc278864
 
 COCOAPODS: 0.38.2
