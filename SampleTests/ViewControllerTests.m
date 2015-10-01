@@ -1,18 +1,18 @@
 //
-//  SampleTests.m
-//  SampleTests
+//  ViewControllerTests.m
+//  Sample
 //
-//  Created by Ethan Fang on 9/25/15.
+//  Created by Ethan Fang on 10/1/15.
 //  Copyright © 2015 sample. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SampleTests : XCTestCase
+@interface ViewControllerTests : XCTestCase
 
 @end
 
-@implementation SampleTests
+@implementation ViewControllerTests
 
 - (void)setUp {
     [super setUp];

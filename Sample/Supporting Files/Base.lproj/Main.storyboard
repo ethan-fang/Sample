@@ -16,21 +16,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ta-l8-Ja8">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ta-l8-Ja8" userLabel="4">
                                 <rect key="frame" x="283" y="285" width="35" height="30"/>
                                 <state key="normal" title="Push"/>
                                 <connections>
                                     <action selector="pushButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NNF-JJ-5SW"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" restorationIdentifier="password" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z2a-fG-aDR">
+                                <rect key="frame" x="173" y="162" width="255" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykt-he-Jlb">
+                                <rect key="frame" x="281" y="219" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ur-gl-Vy5"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYV-xp-67L">
+                                <rect key="frame" x="173" y="98" width="255" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="RRs-4g-8Zd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Z2a-fG-aDR" firstAttribute="top" secondItem="DYV-xp-67L" secondAttribute="bottom" constant="34" id="0b7-Wy-cz7"/>
+                            <constraint firstItem="Z2a-fG-aDR" firstAttribute="centerX" secondItem="Ykt-he-Jlb" secondAttribute="centerX" id="7RG-2n-Bp7"/>
+                            <constraint firstItem="Ykt-he-Jlb" firstAttribute="top" secondItem="Z2a-fG-aDR" secondAttribute="bottom" constant="27" id="QaB-KI-JqL"/>
                             <constraint firstItem="2ta-l8-Ja8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T6O-Ys-N4b"/>
                             <constraint firstItem="2ta-l8-Ja8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aeo-pG-zhA"/>
+                            <constraint firstItem="DYV-xp-67L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="cE8-JH-1zt"/>
+                            <constraint firstItem="DYV-xp-67L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dTZ-dA-eZT"/>
+                            <constraint firstItem="Z2a-fG-aDR" firstAttribute="trailing" secondItem="DYV-xp-67L" secondAttribute="trailing" id="dpg-a1-T0q"/>
+                            <constraint firstItem="Z2a-fG-aDR" firstAttribute="leading" secondItem="DYV-xp-67L" secondAttribute="leading" id="oRs-TD-E1w"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vz3-aX-z9U"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="Z2a-fG-aDR" id="e9o-O8-1cl"/>
+                        <outlet property="usernameTextField" destination="DYV-xp-67L" id="TmK-dH-Wdg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -39,7 +70,7 @@
         <!--Navigation Controller-->
         <scene sceneID="94V-wj-wlz">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VNV-as-JKb" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="VNV-as-JKb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JGi-Bu-wZf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

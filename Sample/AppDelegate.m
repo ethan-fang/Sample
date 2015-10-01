@@ -14,10 +14,23 @@
 
 @implementation AppDelegate
 
+static BOOL isRunningTests(void) __attribute__((const));
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    if (isRunningTests()) {
+        return YES;
+    }
+    
+    self.userManager = [UserManager new];
+    
     return YES;
+}
+
+static BOOL isRunningTests(void)
+{
+    NSDictionary* environment = [[NSProcessInfo processInfo] environment];
+    NSString* injectBundle = environment[@"XCInjectBundle"];
+    return [[injectBundle pathExtension] isEqualToString:@"octest"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

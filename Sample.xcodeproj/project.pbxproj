@@ -11,9 +11,13 @@
 		E2E8C9CE0AF6336EF2B54864 /* Pods_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D049E43A6DA171137965FFDE /* Pods_SampleTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FB293F671BB5F49E00DF5259 /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB293F651BB5F49E00DF5259 /* RandomViewController.m */; };
 		FB293F681BB5F49E00DF5259 /* RandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB293F661BB5F49E00DF5259 /* RandomViewController.xib */; };
+		FB77A4031BBD8FA700905EED /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB77A4021BBD8FA700905EED /* UserManager.m */; settings = {ASSET_TAGS = (); }; };
+		FB77A4061BBD9CA700905EED /* UIView+Subviews.m in Sources */ = {isa = PBXBuildFile; fileRef = FB77A4051BBD9CA700905EED /* UIView+Subviews.m */; settings = {ASSET_TAGS = (); }; };
+		FB77A40A1BBDA06900905EED /* UserManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB77A4091BBDA06900905EED /* UserManagerTest.m */; settings = {ASSET_TAGS = (); }; };
+		FB77A40C1BBDA34C00905EED /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB77A40B1BBDA34C00905EED /* ViewControllerTests.m */; settings = {ASSET_TAGS = (); }; };
 		FB82DBD61BB5E78600E5FF5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBD51BB5E78600E5FF5C /* AppDelegate.m */; };
 		FB82DBD91BB5E78600E5FF5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBD81BB5E78600E5FF5C /* ViewController.m */; };
-		FB82DBEC1BB5E78600E5FF5C /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBEB1BB5E78600E5FF5C /* SampleTests.m */; };
+		FB82DBEC1BB5E78600E5FF5C /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBEB1BB5E78600E5FF5C /* ViewControllerTest.m */; };
 		FB82DBF71BB5E78600E5FF5C /* SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB82DBF61BB5E78600E5FF5C /* SampleUITests.m */; };
 		FB82DC0C1BB5EA7A00E5FF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC051BB5EA7A00E5FF5C /* Assets.xcassets */; };
 		FB82DC0D1BB5EA7A00E5FF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB82DC061BB5EA7A00E5FF5C /* LaunchScreen.storyboard */; };
@@ -50,13 +54,19 @@
 		FB293F641BB5F49E00DF5259 /* RandomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
 		FB293F651BB5F49E00DF5259 /* RandomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
 		FB293F661BB5F49E00DF5259 /* RandomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomViewController.xib; sourceTree = "<group>"; };
+		FB77A4011BBD8FA700905EED /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		FB77A4021BBD8FA700905EED /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		FB77A4041BBD9CA700905EED /* UIView+Subviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Subviews.h"; sourceTree = "<group>"; };
+		FB77A4051BBD9CA700905EED /* UIView+Subviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subviews.m"; sourceTree = "<group>"; };
+		FB77A4091BBDA06900905EED /* UserManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManagerTest.m; sourceTree = "<group>"; };
+		FB77A40B1BBDA34C00905EED /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		FB82DBCE1BB5E78600E5FF5C /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82DBD41BB5E78600E5FF5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB82DBD51BB5E78600E5FF5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB82DBD71BB5E78600E5FF5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FB82DBD81BB5E78600E5FF5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB82DBE71BB5E78600E5FF5C /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB82DBEB1BB5E78600E5FF5C /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		FB82DBEB1BB5E78600E5FF5C /* ViewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
 		FB82DBED1BB5E78600E5FF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB82DBF21BB5E78600E5FF5C /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB82DBF61BB5E78600E5FF5C /* SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleUITests.m; sourceTree = "<group>"; };
@@ -151,6 +161,10 @@
 				FB293F641BB5F49E00DF5259 /* RandomViewController.h */,
 				FB293F651BB5F49E00DF5259 /* RandomViewController.m */,
 				FB293F661BB5F49E00DF5259 /* RandomViewController.xib */,
+				FB77A4011BBD8FA700905EED /* UserManager.h */,
+				FB77A4021BBD8FA700905EED /* UserManager.m */,
+				FB77A4041BBD9CA700905EED /* UIView+Subviews.h */,
+				FB77A4051BBD9CA700905EED /* UIView+Subviews.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -158,7 +172,9 @@
 		FB82DBEA1BB5E78600E5FF5C /* SampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB82DBEB1BB5E78600E5FF5C /* SampleTests.m */,
+				FB77A40B1BBDA34C00905EED /* ViewControllerTests.m */,
+				FB77A4091BBDA06900905EED /* UserManagerTest.m */,
+				FB82DBEB1BB5E78600E5FF5C /* ViewControllerTest.m */,
 				FB82DBED1BB5E78600E5FF5C /* Info.plist */,
 			);
 			path = SampleTests;
@@ -429,6 +445,8 @@
 				FB293F671BB5F49E00DF5259 /* RandomViewController.m in Sources */,
 				FB82DC171BB5F21400E5FF5C /* Arrays.m in Sources */,
 				FB82DC101BB5EA7A00E5FF5C /* main.m in Sources */,
+				FB77A4031BBD8FA700905EED /* UserManager.m in Sources */,
+				FB77A4061BBD9CA700905EED /* UIView+Subviews.m in Sources */,
 				FB82DBD61BB5E78600E5FF5C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +455,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB82DBEC1BB5E78600E5FF5C /* SampleTests.m in Sources */,
+				FB77A40C1BBDA34C00905EED /* ViewControllerTests.m in Sources */,
+				FB77A40A1BBDA06900905EED /* UserManagerTest.m in Sources */,
+				FB82DBEC1BB5E78600E5FF5C /* ViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
