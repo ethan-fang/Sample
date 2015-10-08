@@ -4,6 +4,7 @@ use_frameworks!
 pod 'AFNetworking', '~> 2.5'
 pod 'SDWebImage', '~>3.7'
 pod 'PureLayout'
+pod "MagicalRecord"
 
 # Add unit testing libraries ONLY to the test target
 target :SampleTests, :exclusive => true do
